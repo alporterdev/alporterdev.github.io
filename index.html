@@ -16,13 +16,78 @@
 <link rel="apple-touch-icon" href="/images/logo192.png" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-<link rel="stylesheet" href="/styles/global.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/themes/prism.min.css">
+<link rel="stylesheet" href="./styles/global.css" />
 <title>(주)알포터 코딩가이드라인</title>
 </head>
 <body>
-테스트
+  <div class="container">
+    <h1 class="text-center">(주)알포터 코딩가이드라인</h1>
+    <p>&nbsp;</p>
+    <p>본 페이지는 (주)알포터에서 코딩을 함에 있어 준수해야할 내용을 정립, 기록한 것입니다.</p>
+    <p>당사의 모든 개발자들은 본 내용을 참고하여 개발을 진행해 주시기 바랍니다.</p>
+    <p>&nbsp;</p>
 
+    <h3>C# 코딩 가이드라인</h3>
+    <p>기본적으로 C#(Java, TypeScript 포함)은 <b>파스칼 표기법</b>을 사용합니다.</p>
+    <p>
+      <ol>
+        <li>파라미터의 인자는 소문자로 시작합니다.</li>
+        <li></li>
+      </ol>
+    </p>
+    <pre>
+        <code class="language-clike">
+// C# 코드 예시
+public class ExampleClass
+{
+  public int Add(int a, int b)
+  {
+      return a + b;
+  }
+}
+        </code>
+    </pre>
+    <hr />
+    <h3>JavaScript 코딩 가이드라인</h3>
+    <p>기본적으로 javascript는 <b>카멜 표기법</b>을 사용합니다.</p>
+    <p>
+      <ol>
+        <li>파라미터의 인자는 소문자로 시작합니다.</li>
+        <li></li>
+      </ol>
+    </p>
+    <pre>
+        <code class="language-javascript">
+// JavaScript 코드 예시
+function add(a, b) {
+  return a + b;
+}
+        </code>
+    </pre>
+    <hr />
+    <h3>공통사항</h3>
+    <p>다음 내용은 언어에 상관없이 공통적으로 적용됩니다.</p>
+    <p>
+      <ol>
+        <li>기본적으로 모든 명명요소는 두가지 이상의 단어를 조합하여 사용합니다.</li>
+        <li>단어는 축약하여 사용하지 않고, 되도록 해당 단어의 전체 글자를 모두 표기합니다.</li>
+        <li>두번째 단어부터는 첫글자를 대문자로 하는 것을 원칙으로 합니다.</li>
+        <li>단일 단어를 사용하는 경우에는 해당 단어의 사용이 합당한지 충분히 고려되어야 합니다.</li>
+        <li>축약하여 사용하여도 축약된 단어가 어떤 단어인지 누구든지 추측이 가능한 경우에는 축약된 단어를 사용할 수 있습니다.</li>
+      </ol>
+    </p>
+    <pre>
+        <code class="language-javascript">
+// JavaScript 코드 예시
+function add(a, b) {
+  return a + b;
+}
+        </code>
+    </pre>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<script src="/scripts/global.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.0/prism.min.js"></script>
+<script src="./scripts/global.js"></script>
 </body>
 </html>

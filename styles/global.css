@@ -1,0 +1,17 @@
+body {
+    background-color: #EFEFEF;
+}
+
+.container {
+    max-width: 1000px; /* 컨텐츠 영역의 최대 가로폭 */
+    border: 1px solid #ccc; /* 외곽선 추가 */
+    background-color: #fff; /* 컨텐츠 영역 배경색 */
+    padding: 20px; /* 안쪽 여백 */
+    margin: 20px auto; /* 가운데 정렬 */
+}
+
+h1, h3 { margin:20px 0; }
+
+li { margin:8px 0; }
+
+hr { border:none;border-top:1px dashed #ACACAC !important; }
